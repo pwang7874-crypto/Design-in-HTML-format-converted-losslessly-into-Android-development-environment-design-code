@@ -1,0 +1,152 @@
+{
+  "method": "generic DOM inventory plus click probing; not tied to one page structure",
+  "controlsFound": 14,
+  "clicksTried": 14,
+  "clickLimit": 300,
+  "statesReached": 8,
+  "interactions": [
+    {
+      "selector": "html > body > div",
+      "tag": "div",
+      "text": "她 HER MOVE 女性健身 YOUR PACE. YOUR POWER. 今天，也为自己 动起来。 力量与体能 · 单次目标 12 分钟 全身力量，12 分钟。 从一段适合自己的练习开始。 开始今",
+      "declared": [
+        "data-platform=neutral"
+      ],
+      "listeners": [],
+      "result": "no change detected"
+    },
+    {
+      "selector": "#app > header > a",
+      "tag": "a",
+      "text": "她 HER MOVE",
+      "declared": [
+        "href"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#home"
+    },
+    {
+      "selector": "#app > header > button",
+      "tag": "button",
+      "text": "查看我的训练记录",
+      "declared": [
+        "data-go=profile"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#profile"
+    },
+    {
+      "selector": "#app > section > section:nth-of-type(1) > div > div:nth-of-type(2) > button",
+      "tag": "button",
+      "text": "开始今日训练",
+      "declared": [
+        "data-detail=strength"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#course/strength"
+    },
+    {
+      "selector": "#app > section > div:nth-of-type(1) > button",
+      "tag": "button",
+      "text": "看全部",
+      "declared": [
+        "data-go=courses"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#courses"
+    },
+    {
+      "selector": "#app > section > article > a",
+      "tag": "a",
+      "text": "力 全身力量 12 分钟 · 力量",
+      "declared": [
+        "data-course=strength",
+        "href"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#course/strength"
+    },
+    {
+      "selector": "#app > section > article > button",
+      "tag": "button",
+      "text": "收藏全身力量",
+      "declared": [
+        "data-save=strength"
+      ],
+      "listeners": [],
+      "result": "changed visible content"
+    },
+    {
+      "selector": "#app > section > div:nth-of-type(3) > button:nth-of-type(1)",
+      "tag": "button",
+      "text": "晨间唤醒",
+      "declared": [
+        "data-detail=morning"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#course/morning"
+    },
+    {
+      "selector": "#app > section > div:nth-of-type(3) > button:nth-of-type(2)",
+      "tag": "button",
+      "text": "晚间舒缓",
+      "declared": [
+        "data-detail=night"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#course/night"
+    },
+    {
+      "selector": "#app > section > div:nth-of-type(3) > button:nth-of-type(3)",
+      "tag": "button",
+      "text": "调整计划",
+      "declared": [
+        "data-go=plan"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#plan"
+    },
+    {
+      "selector": "#app > footer > button:nth-of-type(1)",
+      "tag": "button",
+      "text": "今日",
+      "declared": [
+        "data-go=home"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#home"
+    },
+    {
+      "selector": "#app > footer > button:nth-of-type(2)",
+      "tag": "button",
+      "text": "课程",
+      "declared": [
+        "data-go=courses"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#courses"
+    },
+    {
+      "selector": "#app > footer > button:nth-of-type(3)",
+      "tag": "button",
+      "text": "计划",
+      "declared": [
+        "data-go=plan"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#plan"
+    },
+    {
+      "selector": "#app > footer > button:nth-of-type(4)",
+      "tag": "button",
+      "text": "我的",
+      "declared": [
+        "data-go=profile"
+      ],
+      "listeners": [],
+      "result": "navigated to file:///C:/Users/wangpan/Desktop/%E5%A5%B9%E5%8A%A8%20HER%20MOVE%20%C2%B7%20%E5%A5%B3%E6%80%A7%E5%81%A5%E8%BA%AB.html#profile"
+    }
+  ],
+  "declaredButHidden": [],
+  "pageErrors": []
+}
